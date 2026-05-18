@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  margin-left: 100px;
+  margin-top: 10px ;
+  margin-right: 50px;
+}
+body >header{
+  background-color: white;
+  margin: 0;
+  padding: 50px;
+
+}
+
+#headingcontent img {
+  left: 0;
+}
+#headingcontent ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#headingcontent a {
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#headingcontent a:hover {
+  color: rgb(151, 8, 8);
+}
+
+#introcontainer {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+#introcontent {
+  width: 35%;
+  align-items: center;
+  
+}
+#introcontent p {
+  font-size: larger;
+  text-align: justify;
+}
+#introimage img {
+  height: 350px;
+  width: 590px;
+}
+body>section{
+    background-color:  rgb(168, 206, 206);
+}
+
+
+#sciencecontainer{
+  display: flex;
+  
+  
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
+  
+}
+#sciencecontainer img{
+  height: 400px;
+  width: 500px;
+}
+body>section{
+   background-color:  rgb(168, 206, 206);
+
+}
+#videocontainer{
+  position: relative;
+
+}
+#videocontainer{
+  margin-left: 100px;
+  
+  
+}
+#videocontent{
+  position: absolute;
+  
+}
+
