@@ -1,101 +1,109 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 header {
-  margin-left: 100px;
-  margin-top: 10px ;
-  margin-right: 50px;
+  margin-left:100px;
+  margin-top:10px;
+  margin-right:50px;
 }
-body >header{
-  background-color: white;
-  margin: 0;
-  padding: 50px;
-
+body > header {
+  background-color:white;
+  margin:0;
+  padding:5px;
 }
 
 #headingcontent img {
-  left: 0;
+  left:0;
 }
 #headingcontent ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 30px;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  gap:30px;
 }
 #headingcontent a {
-  text-decoration: none;
+  text-decoration:none;
   color: black;
-  font-size: medium;
+  font-size:medium;
 }
 header > div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 #headingcontent a:hover {
   color: rgb(151, 8, 8);
 }
 
 #introcontainer {
-  display: flex;
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 50px;
-  margin-top: 50px;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  display:flex;
+  align-items:center;
+
+  justify-content:space-between;
+  margin-bottom:100px;
+
+ 
+  margin-top:50px;
+  margin-left:100px;
+  margin-right:50px;
+}
+body>section{
+   background-color:rgb(168, 206, 206);
 }
 #introcontent {
-  width: 35%;
-  align-items: center;
-  
+  width:35%;
+  align-items:center;
 }
 #introcontent p {
-  font-size: larger;
-  text-align: justify;
+  font-size:larger;
+  text-align:justify;
 }
 #introimage img {
-  height: 350px;
-  width: 590px;
-}
-body>section{
-    background-color:  rgb(168, 206, 206);
+  height:350px;
+  width:590px;
 }
 
+#sciencecontainer {
+  display:flex;
+  align-items:center;
+  margin-left:100px;
+  margin-right:50px;
+  margin-top:50px;
+  justify-content:space-between;
+  margin-bottom:100px;
+}
+#sciencecontainer img {
+  height:400px;
+  width:500px;
+}
 
-#sciencecontainer{
-  display: flex;
-  
-  
-  align-items: center;
+#headingcontent{
+  text-align:center;
+}
+#securitycontainer{
+ 
   margin-left: 100px;
-  margin-right: 50px;
-  margin-top: 50px;
-  justify-content: space-between;
-  margin-bottom: 100px;
-  
+  margin-top: 10px;
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin-bottom: 50px;
   
 }
-#sciencecontainer img{
-  height: 400px;
-  width: 500px;
+#securitycontent p{
+  margin-top: 40px;
 }
-body>section{
-   background-color:  rgb(168, 206, 206);
 
-}
-#videocontainer{
-  position: relative;
 
+#enquirycontent li{
+  list-style: none;
 }
-#videocontainer{
-  margin-left: 100px;
-  
-  
+#enquirycontent{
+  justify-items: center;
+  margin-top: 5px;
 }
-#videocontent{
-  position: absolute;
-  
+#listitems{
+  margin-top: 10px;
 }
 
