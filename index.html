@@ -6,104 +6,157 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Novatech-HAT</title>
   <link rel="stylesheet" href="./style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Jim+Nightshade&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playwrite+GB+J+Guides:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css"
+  />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
 </head>
 <body>
-  <header>
+  <header >
     <div id="headingcontent">
       <img src="./assets/logo.png " height="70px" width="150px" />
 
-      <ul>
+      <ul >
         <li><a href="">HOME</a></li>
-        <li><a href="">SCIENCE</a></li>
-        <li><a href="">PRE-ORDER</a></li>
-        <li><a href="">SECURITY</a></li>
-        <li><a href="">ENQUIRY</a></li>
-        <li><a href="">REVIEWS</a></li>
+        <li><a href="#sciencecontainer">SCIENCE</a></li>
+        <li><a href="#formdiv">PRE-ORDER</a></li>
+        <li ><a href="#security">SECURITY</a></li>
+        <li><a href="#security">ENQUIRY</a></li>
+        <li><a href="#reviews">REVIEWS</a></li>
       </ul>
     </div>
   </header>
   <hr />
   <section id="Intro">
     <div id="introcontainer">
-      <div id="introcontent">
-        <h1>This Beanie Is Designed to Read Your Thoughts</h1>
+      <div id="introcontent" >
+        <h1 style="font-family: 'Roboto', sans-serif;
+          " >This Beanie Is Designed to Read Your Thoughts</h1>
 
         <p>
           California-based startup Nova-tech is developing a thought-to-text
           wearable that could usher in the cyborg future.
         </p>
-        <button style="
-              background-color: black;
-              color: white;
-              padding: 5px;
-              margin-top: 10px;
-              border-radius: 20%;
-            ">
+        <button>
           know more
         </button>
       </div>
-      <div id="introimage">
+      <div id="introimage" >
         <img src="./assets/capimage.png " />
       </div>
     </div>
   </section>
 
   <div id="sciencecontainer">
-    <div id="sciencecontent">
-      <h1>Science Behind It</h1>
-      <p>
+    <div id="sciencecontent" data-aos="zoom-in-up" >
+      <h1 style="  font-family: 'Major Mono Display', monospace;" >Science Behind It</h1>
+            <hr>
+      <p style="padding: 60px;background-color:rgb(168, 206, 206); font-size: larger; font-family: 'Passero One', sans-serif;"><strong>
         The technology is known as a brain-computer interface, or BCI, a
         device that provides a direct communication pathway between the
         brain and an external device. While many companies such as Neuralink
         are developing surgically implanted BCIs for people with severe
         motor disabilities, Nova’s device could allow anyone to become a
-        cyborg.
+        cyborg.</strong>
       </p>
+      <hr>
     </div>
-    <div id="scienceimage">
+    <div id="scienceimage" data-aos="fade-right " data-aos-duration="1000"  >
       <img src="./assets/science.png" />
     </div>
   </div>
   <div id="security">
-    <div id="headingcontent">
-      <h2>SECURITY AND ENQUIRY</h2>
-    </div>
+    
     <div id="securitycontainer">
-      <div id="securitycontent">
-        <p>Typing from your brain sounds cool and all, but it also raises questions about the privacy and security of
-          your neural data. when data leaves the device and is uploaded to the cloud, it’s encrypted from end to end.
-          Nova’s AI models are able to train on the encrypted data rather than the raw neural data. The company is
-          consulting with neurosecurity experts from Stanford University and elsewhere to audit its entire technology
-          stack.
-        <p>
-          
-        
-      </div>
 
       <div id="enquirycontent">
-        <h2>For Enquiries</h2>
+        <h2 style="  font-family: 'Major Mono Display', monospace;" >For Enquiries</h2>
         <ul id="listitems">
-          <li><a href=""><i class="fa-solid fa-lock"></i>Security & Privacy Question</a></li>
+          <li class="enquiryname"><a href=""><i class="fa-solid fa-lock"></i> Security & Privacy Question</a></li>
           <br>
-          <li><a href=""><i class="fa-solid fa-syringe"></i>Apply for Beta Testing</a></li>
+          <li class="enquiryname"><a href=""><i class="fa-solid fa-syringe"></i> Apply for Beta Testing</a></li>
           <br>
-          <li><a href=""><i class="fa-solid fa-computer"></i>Developer & API Access</a></li>
+          <li class="enquiryname"><a href=""><i class="fa-solid fa-computer"></i>   Developer & API Access</a></li>
           <br>
-          <li><a href=""><i class="fa-solid fa-circle-question"></i>Accessibility Inquiries </a></li>
+          <li class="enquiryname"><a href=""><i class="fa-solid fa-circle-question"></i>        Accessibility Inquiries </a></li>
         </ul>
 
       </div>
     </div>
+    <div id="formdiv" class="formbox" data-aos="flip-left">
+    <h2 style=" font-family: 'Major Mono Display', monospace;margin-bottom: 35px;">Beta Testing Form</h2>
+
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" />
+
+      <label for="device">Device</label>
+      <select id="device">
+        <option>Android</option>
+        <option>iPhone</option>
+        <option>Desktop</option>
+      </select>
+
+      <label for="feedback">Feedback</label>
+      <textarea id="feedback" rows="4" placeholder="Write your feedback"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>  
 
   </div>
+  <section id="reviews">
+  <h2>REVIEWS</h2>
+  
+  <div class="reviewscontainer" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
+    <div class="reviewcard">
+      <h3>SAMUEL</h3>
+      <p>The long-term implications for government agencies to involuntarily access the thoughts of wearers for purposes of interrogation or "correct" thinking seem obvious & obviously bad. That may not be an immediate possibility, but would clearly be a long-term goal for some. The sanctity of private thoughts is the final refuge.</p>
+    </div>
+
+    <div class="reviewcard">
+      <h3>Ragavendra</h3>
+      <p>The long-term implications for government agencies to involuntarily access the thoughts of wearers for purposes of interrogation or "correct" thinking seem obvious & obviously bad.</p>
+    </div>
+
+    <div class="reviewcard">
+      <h3>Muthu Ram</h3>
+      <p>Those devices may be small, but the work they do will be extremely complex. I assume it will be done by data centers -- at how much energy consumption? If millions of people use these -- especially office workers -- the environmental effects may be tragic.</p>
+    </div>
+  </div>
+</section>
 
 
 
-
+<footer>
+      <p>
+        &copy;My Portfolio Website-April 2026,All Rights Reserved to &reg; Hari
+        Pal
+      </p>
+       Source:
+  <a href="https://www.wired.com/story/this-beanie-is-designed-to-read-your-thoughts/" target="_blank">
+    Wired Article
+  </a>
+  <a href="" ><i class="fa-solid fa-arrow-up"></i></a>
 
 
 </body>
+<script>
+  AOS.init();
+</script>
 
 </html>
